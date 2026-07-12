@@ -23,7 +23,7 @@ jobs:
     - name: Publish to GitHub Packages
       run: |
         mvn -B deploy --file pom.xml \
-          -DaltDeploymentRepository=github::default::https://maven.pkg.github.com/saitejabandaru-in/llm-risk \
+          -DaltDeploymentRepository=github::default::https://maven.pkg.github.com/saitejabandaru-in/ai-credit-compliance \
           -Dgpg.skip=true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
