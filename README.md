@@ -1,11 +1,11 @@
-# 📊 llm-credit-risk (Java/Maven)
+# 📊 llm-risk (Java/Maven)
 
 <p align="center">
   <img src="https://img.shields.io/badge/java-17%2B-blue.svg?style=flat-square&logo=openjdk" alt="Java Version" />
   <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License" />
 </p>
 
-`llm-credit-risk` is an enterprise credit scoring fairness compliance auditor for Spring Boot AI banking systems. It calculates Demographic Parity Ratio (DPR) and Equal Opportunity Difference (EOD) on lending decisions to ensure compliance with fair lending acts.
+`llm-risk` is an enterprise credit scoring fairness compliance auditor for Spring Boot AI banking systems. It calculates Demographic Parity Ratio (DPR) and Equal Opportunity Difference (EOD) on lending decisions to ensure compliance with fair lending acts.
 
 ---
 

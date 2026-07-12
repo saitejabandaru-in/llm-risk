@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.fintechai.compliance</groupId>
-    <artifactId>llm-credit-risk</artifactId>
+    <artifactId>llm-risk</artifactId>
     <version>0.2.0</version>
     <packaging>jar</packaging>
 
-    <name>llm-credit-risk</name>
+    <name>llm-risk</name>
     <description>Enterprise credit scoring fairness compliance auditor for Spring Boot AI banking systems. Measures demographic bias on lending decisions.</description>
-    <url>https://github.com/saitejabandaru-in/llm-credit-risk</url>
+    <url>https://github.com/saitejabandaru-in/llm-risk</url>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -52,7 +52,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/saitejabandaru-in/llm-credit-risk</url>
+            <url>https://maven.pkg.github.com/saitejabandaru-in/llm-risk</url>
         </repository>
     </distributionManagement>
 </project>
