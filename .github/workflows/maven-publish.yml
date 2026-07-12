@@ -23,7 +23,7 @@ jobs:
     - name: Publish to GitHub Packages
       run: |
         mvn -B deploy --file pom.xml \
-          -DaltDeploymentRepository=github::default::https://maven.pkg.github.com/saitejabandaru-in/llm-proof-java \
+          -DaltDeploymentRepository=github::default::https://maven.pkg.github.com/saitejabandaru-in/llm-risk \
           -Dgpg.skip=true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
